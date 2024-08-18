@@ -1,0 +1,40 @@
+.flexbox{
+    height: 250px;
+    border:3px solid red;
+    display: flex;
+    margin-bottom: 16px;
+}
+.flexbox div{
+    border: 2px solid orange;
+    width: 150px;
+    margin: 15px;
+}
+
+/***************************************************************************************/
+
+.flex-container1{
+    /* flex-wrap: wrap; se o componente filho não couber no container pai ele cai */
+    /* flex-wrap: nowrap; Já é o padrão */
+    /* flex-direction: row; já é o padrão */
+    /* flex-direction: column; Altera a direção do flexbox para vertical */
+    /* flex-direction: row-reverse; inverte a ordem e a direção */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/***************************************************************************************/
+
+.flex-container2{
+    /* justify-content: start; já é o padrão */
+    /* justify-content: end; alinha o conteúdo à direita */
+    /* justify-content: center; centralizar o conteúdo */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly; /*parecido com o space-around mas com os espaços mais parecidos*/
+}
+.flex-container2 div{
+    width: 30px;
+    margin: 0;
+}
+
+11min51
